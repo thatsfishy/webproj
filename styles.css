@@ -1,0 +1,74 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px !important;
+        margin: 20px 0;
+      margin-left:-280px;
+    }
+}
+
+body {
+    background-image: url('parfum1.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.navbar {
+    background-color: purple;
+    padding: 10px 0;
+    overflow-x: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.nav-links li {
+    flex: 1;
+}
+
+.nav-links a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    transition: color 0.3s ease;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-links a:hover {
+    color: #f0f;
+}
+
+h1 {
+    font-size: 60px;
+    color: #008b92;
+    position: relative;
+    left: 300px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
